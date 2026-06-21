@@ -1,0 +1,52 @@
+/*
+-> vw 99 is nice for full page borders
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(5, 30, 49, 0.999);
+}
+
+#nav {
+    display: flex;
+    border: 5px solid white;
+    min-width: 97vw;
+    max-width: 98vw;
+    min-height: 8vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+#gameSection {
+    display: flex;
+    border: 2px solid aqua;
+    max-height: 88vh;
+    min-width: 98vw;
+    max-width: 98vw;
+}
+
+#playerUI {
+    display: flex;
+    height: 30vh;
+    width: 80vw;
+}
+
+.card {
+    border-radius: 12%;
+    margin: 0.5em;
+    min-height: 8vh;
+    max-height: 8vh;
+    min-width: 5vw;
+    max-width: 5vw;
+    border: 1px solid green;
+}
+
+main {
+    display: flex;
+    border: 1px solid rgba(129, 129, 159, 0.243);
+    min-height: 98vh;
+    min-width: 98vw;
+}
