@@ -1,0 +1,25 @@
+body {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  min-width: 95vw;
+  max-width: 98vw;
+  border: 1px solid rgba(94, 103, 103, 0.513);
+  min-height: 5vh;
+  padding: 1rem;
+  background: hsla(0, 3%, 34%, 0.282);
+}
+
+a {
+  color: teal;
+}
