@@ -35,12 +35,14 @@ body {
 }
 
 .card {
+    padding: 1em;
+    font-size: 3em;
     border-radius: 12%;
     margin: 0.5em;
     min-height: 8vh;
     max-height: 8vh;
-    min-width: 5vw;
-    max-width: 5vw;
+    min-width: 4vw;
+    max-width: 4vw;
     border: 1px solid green;
 }
 
